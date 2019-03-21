@@ -1,0 +1,40 @@
+.am-list {
+  /* width: 8.77333333rem; */
+  position: relative;
+  margin: 0 auto;
+  font-size: .42666667rem;
+  color: #333;
+  padding: 0 1.5rem;
+}
+.am-list-item {
+  position: relative;
+  width: 100%;
+  margin: 1.2rem 0 0;
+  border-bottom: 1px solid #ff5000;
+}
+.am-list-item input{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.am-fieldBottom{
+  width: 90%;
+  margin: 1.5rem auto;
+  height: 3rem;
+  background: #f76d42;
+  border-radius: 1.5rem;
+}
+.am-fieldBottom button{
+  width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.help-block{
+  color: #e4393c;
+  height: 20px;
+  font-size: 12px;
+  margin-left: 15%;
+}

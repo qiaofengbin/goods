@@ -1,0 +1,88 @@
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.we-page {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  background: url('../../static/img/bg.jpg_.webp') no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.left_logo {
+  flex: 8;
+  display: flex;
+}
+
+.left_logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.logo_name {
+  text-align: left;
+  margin-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+.logo span {
+  display: block;
+}
+
+.logo_name img {
+  width: 2rem;
+}
+
+.nav_list {
+  width: 100%;
+  height: 3rem;
+  background: lavender;
+  display: flex;
+  align-items: center;
+}
+
+.nav_list a {
+  flex: 1;
+  padding: .5rem 0rem;
+  margin: 0 1rem;
+}
+
+.show {
+  border-bottom: 2px solid #000;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+}
+
+.list dl {
+  width: 28%;
+}
+
+.list img {
+  width: 100%;
+}
+
+.list dd p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
